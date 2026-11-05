@@ -1,0 +1,17 @@
+public class ClassName {                       // 1. The class (the container)
+
+    // 2. Methods (your reusable pieces of code)
+    public static String myMethod(int number) {
+        // code that does the work
+        return "result";
+    }
+
+    // 3. The main method (where the program starts)
+    public static void main(String[] args) {
+        // 4. Variables (your input values)
+        int myNumber = 5;
+
+        // 5. Calls and printing
+        System.out.println(myMethod(myNumber));
+    }
+}
