@@ -1,4 +1,4 @@
-public class ClassName {                       // 1. The class (the container)
+public class ClassName { 1. The class (the container)
 
     // 2. Methods (your reusable pieces of code)
     public static String myMethod(int number) {
