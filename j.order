@@ -16,6 +16,11 @@ public class ClassName { 1. The class (the container)
     }
 }
 
+public class Farewells {
+
+   public static String makeFarewell(String name)  {
+       return "
+       
 
 public class Greeting {                                  // 1. The class
 
