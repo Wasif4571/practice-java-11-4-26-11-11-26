@@ -15,3 +15,46 @@ public class ClassName { 1. The class (the container)
         System.out.println(myMethod(myNumber));
     }
 }
+
+
+public class Greeting {                                  // 1. The class
+
+    // 2. Your own method
+    public static String makeGreeting(String name) {
+        return "Hello, " + name + "!";
+    }
+
+    // 3. The main method (the program starts here)
+    public static void main(String[] args) {
+
+        // 4. Variables
+        String myName = "Sam";
+
+        // 5. Calls and printing
+        System.out.println(makeGreeting(myName));
+    }
+}
+
+public class RollerCoaster {                              // 1. The class
+
+    // 2. Your own method
+    public static String canRide(int height) {
+        if (height >= 48) {
+            return "You can ride!";
+        } else {
+            return "Sorry, you're too short.";
+        }
+    }
+
+    // 3. The main method (the program starts here)
+    public static void main(String[] args) {
+
+        // 4. Variables
+        String name = "Alex";
+        int height = 52;
+
+        // 5. Calls and printing
+        System.out.println(name + " is " + height + " inches tall.");
+        System.out.println(canRide(height));
+    }
+}
