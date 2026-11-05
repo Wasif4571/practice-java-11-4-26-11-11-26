@@ -1,4 +1,4 @@
-public class Main {
+public class checkgrade {
 
     public static String checkGrade(int score) {
         if (score >= 90) {
