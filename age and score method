@@ -1,6 +1,5 @@
 public class Student {
 
-    
     public static String checkAge(int age) {
         if (age < 0) {
             return "Invalid age";
