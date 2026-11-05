@@ -1,0 +1,35 @@
+public class Student {
+
+    
+    public static String checkAge(int age) {
+        if (age < 0) {
+            return "Invalid age";
+        } else if (age < 13) {
+            return "Child";
+        } else if (age < 20) {
+            return "Teenager";
+        } else {
+            return "Adult";
+        }
+    }
+
+  
+    public static double averageScore(int[] testScores) {
+        if (testScores.length == 0) {
+            return 0;
+        }
+        int sum = 0;
+        for (int score : testScores) {
+            sum += score;
+        }
+        return (double) sum / testScores.length;
+    }
+
+    public static void main(String[] args) {
+        int age = 16;
+        int[] testScores = {88, 92, 79, 95};
+
+        System.out.println("Age category: " + checkAge(age));
+        System.out.println("Average score: " + averageScore(testScores));
+    }
+}
