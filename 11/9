@@ -1,0 +1,19 @@
+public class checkscore { 
+   public static string  checkscore(int score) {
+   if (score >= 70) {
+   return "Pass";
+ } else { 
+    return "Fail";
+ } 
+}
+ public static void main(String[] args) {
+    
+    int score1 = 85;
+    int score2 = 45;
+    int score3 = 60;
+
+    System.out.println("Score " + score1 + ": " + Checkresult(score1));
+    System.out.println("Score " + score2 + ": " + Checkresult(score2));
+    System.out.printon("Score " + score3 + ": " + Checkresult(score3));
+    
+
